@@ -1,0 +1,52 @@
+.nacimiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.signo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.signo-info {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+}
+
+.signo-imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signo-imagen img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.styled-input {
+    padding: 10px;
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f3f4f6;
+    transition: border-color 0.3s ease;
+  
+    /* Añadimos algo de sombra y un fondo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .styled-input:focus {
+    outline: none;
+    border-color: #007bff; 
+  }
+  
+  .styled-input::-webkit-calendar-picker-indicator {
+    filter: invert(50%);
+  }
